@@ -1,6 +1,5 @@
-setwd("~/Dropbox/DataScience/Bayer/ISLR")
-
 LoadStuff = function(){
+  setwd("~/Dropbox/DataScience/Bayer/ISLR")
   library(ISLR) ## Load ISLR library
   library(MASS) ## Load Boston data frame
   Auto = read.csv("~/Dropbox/DataScience/Bayer/ISLR/Auto.csv", header=T, na.strings="?")
